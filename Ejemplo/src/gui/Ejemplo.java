@@ -78,13 +78,13 @@ public class Ejemplo extends JFrame implements ActionListener {
 		a.setNota2(18);
 		listado(a);
 	}
-	//  Métodos tipo void (con parámetros)	
+	//  Mï¿½todos tipo void (con parï¿½metros)	
 	void imprimir(String s) {
 		txtS.append(s + "\n");
 	}
 	void listado(Alumno x) {
-		imprimir("DirMem   :  " + x);
-		imprimir("código   :  " + x.getCodigo());
+		imprimir("DirMem 2   :  " + x);
+		imprimir("cï¿½digo   :  " + x.getCodigo());
 		imprimir("nombre   :  " + x.getNombre());
 		imprimir("nota 1   :  " + x.getNota1());
 		imprimir("nota 2   :  " + x.getNota2());
